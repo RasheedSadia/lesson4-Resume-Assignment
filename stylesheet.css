@@ -1,0 +1,126 @@
+
+
+        /*------------Global styles------------------------*/
+
+ html{
+     box-sizing: border-box;
+      }
+
+   *,*:before,:after {
+       box-sizing: inherit;
+   }
+body{
+ color:#292828;
+ margin: 0;
+ padding: 0;
+ font-family: 'Murecho', sans-serif;
+ font-size: 16px;
+ line-height: 1.5;
+ 
+  }
+  
+img {
+    width:300px;
+    
+    padding: 5px;
+}
+ a{
+     color:#778A35 ;
+ }
+  a:hover{
+      text-decoration: none;
+  }
+  h1{
+     font-size: 60px; 
+     line-height: 1;
+    text-shadow: 2px 2px 4px #f3e7f3;
+}
+  h2{
+  
+   font-size: 35px; 
+  }
+  h1, h2{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    margin: 0;
+  }
+  .content-wrap{
+    width: 900px;
+   margin: 0 auto; 
+    padding: 50px 0 ;
+}
+      /*------------  Profile------------------------*/
+
+      
+
+ header{
+     background:#bfadd6;
+     color:#151615 ;
+  
+ }
+ /*------------ Project ------------------------*/
+ 
+ .projects{
+     background:#f3e7f3 ;
+    
+     }
+     
+ .projects a{
+        color: #df20bf;
+        text-decoration:none ;}
+ .projects .btn{
+     color: #df20bf;
+     text-decoration:none ;
+     background: #bfadd6;
+     padding: 3px;
+     border-radius: 4px;
+     display: inline-block;
+ }
+ 
+     
+    
+  .projects .btn:hover{
+     background:rgba(191, 173, 214, 70%)
+     ;
+ }
+ .project-item img{
+float: left;
+margin: 15px;
+ }
+ .project-item{
+     overflow: hidden;
+     border-bottom: 1px dashed #000 ;
+     padding-right:20px 0;
+     margin-top: 0;
+ }
+         /*------------ Work Experience------------------------*/
+
+         
+ .work-experience{
+     background-color:#f8ecf4 ;
+    
+ }
+ /*------------Education------------------------*/
+ .education{
+     background-color:#f3e7f3 ;
+  
+ }
+ /* Contact info 
+ -------------------------------------*/
+ footer{
+     background-color:#d6cce2;
+     color: black;
+    
+    
+ } 
+  footer a {
+      color: black;
+      text-decoration: none;
+      
+  }
+  footer ul li{
+    list-style-type:none;
+  }
+  footer a:hover{
+      color: aliceblue;
+  }
